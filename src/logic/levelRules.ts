@@ -1,4 +1,6 @@
-
+// Grid constants used across level rules
+const GRID_SIZE = 5; // 5x5 grid
+const TOTAL_CELLS = GRID_SIZE * GRID_SIZE;
 
 /** Convert a 0..24 index to {row, col} on a 5x5 grid */
 function indexToRC(index: number): { row: number; col: number } {
